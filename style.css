@@ -17,6 +17,7 @@ body {
  Top Banner Section Style 
  ********************************/
 .container {
+  margin-bottom: 70px;
 }
 .top-banner {
   transition: background-color 0.5s ease;
@@ -63,4 +64,44 @@ body {
   height: 438px;
   margin-top: 110px;
   padding-bottom: 85px;
+}
+
+/********************************
+ Blog Section Style 
+ ********************************/
+
+.blogs {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 45px;
+  margin-left: 225px;
+}
+
+.blog {
+  width: 330px;
+  height: 474px;
+  box-shadow: 3px 0px 25px rgb(232 218 218);
+  border: 10px solid white;
+  margin-bottom: 25px;
+}
+.blog-item img {
+  width: 300px;
+  height: 256px;
+  margin-top: 10px;
+}
+.blog-item {
+  margin-left: 14px;
+}
+
+.blog-item h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #18191f;
+  line-height: 26px;
+}
+.blog-item p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400px;
+  color: #6c6c6c;
 }
