@@ -2,3 +2,65 @@
 Import Font
 ----------------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/********************************
+ Body Section Style 
+ ********************************/
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/********************************
+ Top Banner Section Style 
+ ********************************/
+.container {
+}
+.top-banner {
+  transition: background-color 0.5s ease;
+  background-color: darkblue;
+}
+.top-banner:hover a {
+  background-color: royalblue;
+}
+.top-banner {
+  display: flex;
+}
+.top-text-margin {
+  margin-top: 140px;
+  margin-left: 147px;
+}
+.half-width {
+  width: 50%;
+}
+.half-width h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #ffffff;
+}
+.btn {
+  margin-top: 53px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn .arrow i {
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.half-width img {
+  width: 556.01px;
+  height: 438px;
+  margin-top: 110px;
+  padding-bottom: 85px;
+}
