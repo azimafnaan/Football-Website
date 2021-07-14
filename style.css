@@ -74,7 +74,7 @@ body {
   display: inline-grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 45px;
-  margin-left: 225px;
+  margin-left: 215px;
 }
 
 .blog {
@@ -104,4 +104,105 @@ body {
   line-height: 26px;
   font-weight: 400px;
   color: #6c6c6c;
+}
+
+/******************************** 
+top Player and top team Section 
+********************************/
+
+.top-team-section,
+.top-player-section {
+  background-color: white;
+  border: 2px solid #dedeeb;
+  box-shadow: 3px 0px 25px rgb(232 218 218);
+  margin: 50px 220px;
+}
+.team-list,
+.players-list {
+  display: flex;
+}
+.top-team-head,
+.top-player-head {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #18191f;
+  padding-top: 50px;
+}
+.top-team-list {
+  width: 50%;
+  padding-left: 22%;
+  color: #18191f;
+  font-size: 25px;
+}
+
+.top-players-list {
+  width: 50%;
+  padding-left: 22%;
+  color: #18191f;
+  font-size: 25px;
+}
+.top-team-list ul li {
+  list-style-type: none;
+}
+.top-players-list ul li {
+  list-style-type: none;
+}
+.team-scoreboard {
+  width: 50%;
+  font-size: 25px;
+  color: #18191f;
+}
+.team-scoreboard ul li {
+  list-style-type: none;
+}
+.top-goal {
+  width: 50%;
+  font-size: 25px;
+  color: #18191f;
+}
+.top-goal ul li {
+  list-style-type: none;
+}
+/******************************** 
+Footer Style 
+*********************************/
+.logo-and-social-icon {
+  margin-top: 130px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 483px;
+  height: 110px;
+  margin-bottom: 20px;
+}
+.social-icon {
+  display: flex;
+  justify-content: center;
+}
+.social-icon a {
+  width: 32px;
+  height: 32px;
+  background-color: #d3d5dc;
+  color: #969bab;
+  margin-left: 14px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+.footer-text {
+  display: flex;
+  justify-content: center;
+}
+.footer-text p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
 }
