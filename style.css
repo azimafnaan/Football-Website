@@ -74,14 +74,14 @@ body {
   display: inline-grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 45px;
-  margin-left: 215px;
+  margin-left: 220px;
 }
 
 .blog {
   width: 330px;
   height: 474px;
   box-shadow: 3px 0px 25px rgb(232 218 218);
-  border: 10px solid white;
+  border: 1px solid white;
   margin-bottom: 25px;
 }
 .blog-item img {
